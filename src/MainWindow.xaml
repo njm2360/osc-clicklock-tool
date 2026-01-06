@@ -1,0 +1,17 @@
+<Window x:Class="OscLockApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="OSCLock"
+        Width="150" Height="100"
+        ResizeMode="NoResize"
+        WindowStyle="SingleBorderWindow">
+
+    <Grid>
+        <Button x:Name="ToggleButton"
+                FontFamily="メイリオ"
+                FontSize="36"
+                Click="ToggleButton_Click"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"/>
+    </Grid>
+</Window>
